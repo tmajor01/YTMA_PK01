@@ -1,0 +1,6 @@
+@EndUserText.label: 'Service definition on Student2 Info'
+define service YSRV_STUDENT2_INFO {
+  expose YCDS_STUDENT2_C as STUDENT2;
+  expose YCDS_COURSE2_C  as COURSE2;
+  expose YCDS_ENROLL2_C  as ENROLL2;
+}

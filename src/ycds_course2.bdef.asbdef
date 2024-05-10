@@ -1,0 +1,13 @@
+managed; //implementation in class zbp_cds_course2 unique;
+//strict ( 2 );
+
+define behavior for YCDS_COURSE2 alias COURSE2
+persistent table ytbl_course2
+lock master
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition on Training table'
+define service YSRV_TRAINING {
+  expose YCDS_TRAINING as TRAINING;
+}

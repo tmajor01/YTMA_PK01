@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition on Student table'
+define service YSRV_STUDENT {
+  expose YCDS_STUDENT as STUDENT;
+}

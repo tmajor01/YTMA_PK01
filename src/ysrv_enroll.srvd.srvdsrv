@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition on Enroll table'
+define service YSRV_ENROLL {
+  expose YCDS_ENROLL as ENROLL;
+}
